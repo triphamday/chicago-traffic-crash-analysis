@@ -1,10 +1,10 @@
 # 🚧 Chicago Traffic Crash Analysis (2022–2024)
 
-### 🚀 Project Overview
+### Project Overview
 
 This project analyzes traffic crash data in Chicago from Jan 2022 to Oct 2024. It explores crash patterns and builds a machine learning model to predict crash severity. Tools used: Python (EDA, modeling), Power BI (visualization).
 
-### 📁 Project Structure
+### Project Structure
 ```bash
 .
 ├── PowerBI/
@@ -23,7 +23,7 @@ This project analyzes traffic crash data in Chicago from Jan 2022 to Oct 2024. I
 ├── report.pdf                     # Full project report
 └── slide.pdf                      # Summary presentation
 ```
-### 🧹 Data Preprocessing and EDA
+### Data Preprocessing and EDA
 
 - Filter date range (01/2022 – 10/2024)
 - Remove columns with >60% nulls, fix types, drop duplicates
@@ -31,21 +31,21 @@ This project analyzes traffic crash data in Chicago from Jan 2022 to Oct 2024. I
 - Drop irrelevant/uniform columns
 - Outlier handling on age, location
 
-### 📊 Analysis by PowerBI
+### Analysis by PowerBI
 
 - **Time Trends**: Peak in May; risky hours 6–9 AM, 3–6 PM  
 - **Vehicle & Behavior**: Camry, Corolla, Civic top crash vehicles; common risks: evading police, phone use  
 - **Injury & Damage**: Severe damage in angle/rear-end crashes; most >$1,500  
 - **Geography**: Hotspots downtown & near Lake Michigan; high fatalities in North Lawndale & Stickney
 
-### 🤖 Modeling
+### Modeling
 
 - **Target**: `most_severe_injury` (5 classes)
 - **Features**: Selected via IV, WoE, ANOVA
 - **Models**: RF, LightGBM, XGBoost, CatBoost, SGD
 - **Top Accuracy**: LightGBM & XGBoost (~93.47%)
 
-### 🛠 How to Run
+### How to Run
 1. Clone the repository:
 ```bash
 git clone <repository-url>
@@ -61,12 +61,6 @@ pip install -r requirements.txt
 - model/
 
 4. View visualizations in PowerBI/visualize.pdf
-
-### 👥 Contributors
-
-- Lê Xuân Bình – 22520131  
-- Trần Đại Hiển – 22520426  
-- Phạm Ngọc Trí – 22521526
 
 ### Acknowledgments
 
