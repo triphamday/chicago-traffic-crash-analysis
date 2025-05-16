@@ -68,7 +68,7 @@ pip install -r requirements.txt
 - Trần Đại Hiển – 22520426  
 - Phạm Ngọc Trí – 22521526
 
-### 🙏 Acknowledgments
+### Acknowledgments
 
 - Open Data Portal by [City of Chicago](https://data.cityofchicago.org)  
 - Project for course: **Data Analysis and Visualization (DS105) – UIT**
