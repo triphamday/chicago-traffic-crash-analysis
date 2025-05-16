@@ -56,10 +56,11 @@ cd chicago-crash-analysis
 pip install -r requirements.txt
 ```
 3.Run notebooks in this order:
+```bash
 - pre_processing_and_eda/
 - analysis/
 - model/
-
+```
 4. View visualizations in PowerBI/visualize.pdf
 
 ### Acknowledgments
